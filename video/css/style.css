@@ -10,7 +10,8 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,:after,:before{backgr
     object-fit: cover;
     width: 100%;
     height: 100%;
-}
+    object-position: left bottom;
+        }
 h1{
     width: fit-content;
     font-size: 8vw;
