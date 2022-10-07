@@ -1,0 +1,97 @@
+@use "reset";
+
+//色の登録
+.color_1{
+    background-color: #fff5a0;
+}
+.color_2{
+    background-color: #fcee21;
+
+}
+.color_3{
+    background-color: #29abe2;
+    
+}
+.color_4{
+    background-color: #c9e56f;
+    
+}
+.color_5{
+    background-color: #cfe283;
+    
+}
+.color_6{
+    background-color: #edd0E5;
+    
+}
+.color_7{
+    background-color: #edd0E5;
+    
+}
+.color_8{
+    background-color: #29abe2;
+    
+}
+.color_9{
+    background-color: #fcfce4;
+    
+}
+.color_10{
+    background-color: #f8f97e;
+    
+}
+.color_11{
+    background-color: #fcfce4;
+    
+}
+.color_12{
+    background-color: #f8f97e;
+    
+}
+h1{
+    text-align: center;
+    margin: 30px 0 50px;
+
+}
+.banner-wrapper{
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.banner-box{
+    width: calc((100% - 40px) / 2);
+    margin-bottom: 70px;
+}
+.pc{
+    width: 336px;
+    height: 280px;
+}
+.sp{
+    width: 320px;
+    height: 280px;
+}
+
+.banner-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    dt{
+        width: 40%;
+        padding: 10px;
+    }
+    dd{
+        width: 60%;
+        padding: 10px;
+    span{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin:  0 10px 0 20px;
+        &:first-of-type{
+        margin-left: 0;
+        }
+    }
+    }
+}
